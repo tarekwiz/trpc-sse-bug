@@ -10,8 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.13",
     "@astrojs/check": "^0.9.4",
+    "@trpc/client": "^11.0.0-rc.638",
+    "@trpc/server": "^11.0.0-rc.638",
+    "astro": "^4.16.13",
     "typescript": "^5.6.3"
   }
 }
