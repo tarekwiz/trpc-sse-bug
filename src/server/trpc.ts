@@ -31,7 +31,9 @@ export const appRouter = router({
         await new Promise((r) => setTimeout(r, 1000));
       }
     } catch (error) {
-      console.error("done", error);
+      console.error("error", error);
+    } finally {
+      console.log("finally");
     }
   }),
 });
